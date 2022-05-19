@@ -11,7 +11,7 @@
                 <br>
                 <input type="email" v-model="user.email" placeholder="Email">
                 <br>
-                <input type="number" vmodel="user.account.balance" placeholder="Initial Balance">
+                <input type="number" v-model="user.account.balance" placeholder="Initial Balance">
                 <br>
                 <button type="submit">Registrarse</button>
             </form>

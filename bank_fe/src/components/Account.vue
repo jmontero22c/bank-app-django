@@ -40,7 +40,7 @@ export default {
             });
     },
     verifyToken: function () {
-        return axios.post("https://danapp-mision-tic-2022-be.herokuapp.com / refresh / ", {refresh: localStorage.getItem("token_refresh")}, {headers: {}}
+        return axios.post("https://danapp-mision-tic-2022-be.herokuapp.com/refresh/", {refresh: localStorage.getItem("token_refresh")}, {headers: {}}
         )
             .then((result) => {
                 localStorage.setItem("token_access", result.data.access);
