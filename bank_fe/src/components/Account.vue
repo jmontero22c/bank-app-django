@@ -32,7 +32,7 @@ export default {
             .then((result) => {
                 this.name = result.data.name;
                 this.email = result.data.email;
-                this.balance = result.data.account.balance;
+                this.balance = result.data.account.balanace;
                 this.loaded = true;
             })
             .catch(() => {
